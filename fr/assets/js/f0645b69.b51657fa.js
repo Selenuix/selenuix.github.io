@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[981],{5869:o=>{o.exports=JSON.parse('{"name":"docusaurus-portfolio-plugin","id":"default"}')}}]);
