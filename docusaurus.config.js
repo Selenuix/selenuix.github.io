@@ -5,7 +5,9 @@ module.exports = {
     url: 'https://github.com',
     baseUrl: '/',
     organizationName: 'Selenuix', // Usually your GitHub org/user name.
-    projectName: '', // Usually your repo name.
+    projectName: 'selenuix.github.io', // Usually your repo name.
+    deploymentBranch: 'gh-pages',
+    trailingSlash: false,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
@@ -105,4 +107,14 @@ module.exports = {
             },
         ],
     ],
+    
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'fr'],
+        localeConfigs: {
+            en: {
+                htmlLang: 'en-GB',
+            },
+        },
+    },
 };
