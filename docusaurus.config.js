@@ -59,10 +59,6 @@ module.exports = {
                             label: 'About me',
                             to: '/docs/about',
                         },
-                        {
-                            label: 'Timeline',
-                            to: '/docs/timeline',
-                        },
                     ],
                 },
             ],
