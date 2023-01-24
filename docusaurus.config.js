@@ -100,15 +100,20 @@ module.exports = {
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
-                
+
                 googleAnalytics: {
                     trackingID: 'UA-217711802-2',
+                    anonymizeIP: true,
+                },
+
+                gtag: {
+                    trackingID: 'G-EF02M3F94S',
                     anonymizeIP: true,
                 },
             },
         ],
     ],
-    
+
     i18n: {
         defaultLocale: 'en',
         locales: ['en', 'fr'],
